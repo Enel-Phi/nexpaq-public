@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_horizontal_margin" >
+
+    <TextView
+        android:id="@+id/lblConnStatus"
+        style="@style/lbl_content_style_1"
+        android:text="@string/lbl_state" />
+
+    <View style="@style/view_style" />
+
+    <TextView
+        android:id="@+id/lblInfo"
+        style="@style/lbl_content_style_3"
+        android:text="@string/lbl_info"
+        android:visibility="gone" />
+
+    <LinearLayout style="@style/layout_style" >
+
+        <TextView
+            android:id="@+id/lblMaxTime"
+            style="@style/lbl_content_style_2"
+            android:text="@string/lbl_time_max" />
+
+        <TextView
+            android:id="@+id/lblMinTime"
+            style="@style/lbl_content_style_2"
+            android:text="@string/lbl_time_min" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lblStartTime"
+        style="@style/lbl_content_style_3"
+        android:text="@string/lbl_time_start" />
+
+    <TextView
+        android:id="@+id/lblEndTime"
+        style="@style/lbl_content_style_3"
+        android:text="@string/lbl_time_stop" />
+
+    <TextView
+        android:id="@+id/lblLost"
+        style="@style/lbl_content_style_3"
+        android:text="@string/lbl_lost" />
+
+    <View style="@style/view_style" />
+
+    <TextView
+        android:id="@+id/lblTimeZone"
+        style="@style/lbl_content_style_4"
+        android:text="@string/lbl_zone_content" />
+
+    <Button
+        android:id="@+id/btnStart"
+        style="@style/btn_style"
+        android:text="@string/btn_start" />
+
+</LinearLayout>

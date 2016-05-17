@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VelocityBLE</string>
+
+    <!-- Label -->
+    <string name="lbl_state">Connection Status:&#160;&#160;%1$s</string>
+    <string name="lbl_disconn">Disconnected</string>
+    <string name="lbl_conn">Connected</string>
+    <string name="lbl_info">%1$s:&#160;&#160;%2$d,&#160;&#160;Interval:&#160;&#160;%3$s</string>
+    <string name="lbl_time_max">MAX:&#160;&#160;%1$dms</string>
+    <string name="lbl_time_min">MIN:&#160;&#160;%1$dms</string>
+    <string name="lbl_time_start">Start Time:&#160;&#160;%1$s</string>
+    <string name="lbl_time_stop">End Time:&#160;&#160;%1$s</string>
+    <string name="lbl_lost">Lost Number:&#160;&#160;%1$d</string>
+    <string name="lbl_zone_content">Time Statistics\n%1$s</string>
+    <string name="txt_zone">(%1$d,%2$d]:&#160;&#160;%3$d\n</string>
+    <string name="txt_over">Over:&#160;&#160;%1$d</string>
+    <string name="txt_send">Send</string>
+    <string name="txt_receive">Receive</string>
+    <!-- Button -->
+    <string name="btn_start">Start testing</string>
+
+</resources>
